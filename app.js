@@ -12,6 +12,7 @@ const app = express()
 // Register the public directory
 app.use(express.static(__dirname + '/public'));
 
+
 // register the routes
 app.use(bodyParser.json())
 app.use(middleware.cors)

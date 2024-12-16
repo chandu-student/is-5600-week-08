@@ -12,6 +12,7 @@ const Order = db.model('Order', {
     required: true
   }],
   status: {
+    
     type: String,
     index: true,
     default: 'CREATED',

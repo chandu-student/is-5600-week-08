@@ -8,6 +8,7 @@ const autoCatch = require('./lib/auto-catch')
  * @param {object} req
  * @param {object} res
 */
+
 function handleRoot(req, res) {
   res.sendFile(path.join(__dirname, '/index.html'));
 }
